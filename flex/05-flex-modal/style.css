@@ -20,6 +20,33 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 15px;
+  gap: 15px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.close-button {
+  flex-shrink: 0;
+}
+
+.headcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 20px;
+}
+
+.text {
+  display: flex;
+  width: 100%;
+  padding: 15px 0px;
 }
 
 .icon {
